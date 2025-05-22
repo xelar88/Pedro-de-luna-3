@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IES Pedro de Luna</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo-circle"></div>
+        <span>IES Pedro de Luna</span>
+      </div>
+      
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#oferta">Oferta Educativa</a></li>
+          <li><a href="#calendario">Calendario</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h1>Instituto de Educación Secundaria Pedro de Luna</h1>
+        <p>Centro educativo público comprometido con la excelencia académica y el desarrollo integral del alumnado desde 1845.</p>
+        <div class="hero-buttons">
+          <a href="#oferta" class="btn btn-primary">Oferta Educativa</a>
+          <a href="#contacto" class="btn btn-outline">Contacto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias" class="section">
+      <div class="container">
+        <h2 class="section-title">Últimas Noticias</h2>
+        
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-date">16 MAY 2025</div>
+            <h3>Notas de las Pruebas de Acceso a Grado Medio 2025</h3>
+            <p>Ya están disponibles las notas de las Pruebas de Acceso realizadas el día 6 de mayo de 2025.</p>
+            <a href="#" class="news-link">Leer más</a>
+          </article>
+
+          <article class="news-card">
+            <div class="news-date">15 MAY 2025</div>
+            <h3>Banco de Libros 2025-2026</h3>
+            <p>Abierto el plazo para la inscripción en el Banco de Libros para el próximo curso académico.</p>
+            <a href="#" class="news-link">Leer más</a>
+          </article>
+
+          <article class="news-card">
+            <div class="news-date">9 MAY 2025</div>
+            <h3>Semana de las Artes 2025</h3>
+            <p>Del 12 al 16 mayo se celebrará la Semana de las Artes con conciertos, exposiciones y talleres.</p>
+            <a href="#" class="news-link">Leer más</a>
+          </article>
+        </div>
+        
+        <div class="section-footer">
+          <a href="#" class="btn btn-outline">Ver todas las noticias</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Oferta Educativa</h2>
+        
+        <div class="education-grid">
+          <div class="education-card">
+            <h3>ESO</h3>
+            <p>Educación Secundaria Obligatoria con programas bilingües y atención a la diversidad.</p>
+            <ul>
+              <li>1º a 4º de ESO</li>
+              <li>Programa Bilingüe en Inglés</li>
+              <li>Programa de Diversificación</li>
+            </ul>
+          </div>
+          
+          <div class="education-card">
+            <h3>Bachillerato</h3>
+            <p>Preparación para estudios superiores con diferentes modalidades.</p>
+            <ul>
+              <li>Ciencias y Tecnología</li>
+              <li>Humanidades y Ciencias Sociales</li>
+              <li>Artes</li>
+            </ul>
+          </div>
+          
+          <div class="education-card">
+            <h3>Formación Profesional</h3>
+            <p>Ciclos formativos orientados al mundo laboral.</p>
+            <ul>
+              <li>Grado Medio</li>
+              <li>Grado Superior</li>
+              <li>Formación Profesional Básica</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="calendario" class="section">
+      <div class="container">
+        <h2 class="section-title">Calendario Escolar</h2>
+        
+        <div class="calendar">
+          <div class="calendar-header">
+            <h3>Próximos eventos</h3>
+          </div>
+          
+          <div class="calendar-events">
+            <div class="calendar-event">
+              <div class="event-date">
+                <span class="event-day">12</span>
+                <span class="event-month">MAY</span>
+              </div>
+              <div class="event-info">
+                <h4>Inicio Semana de las Artes</h4>
+                <p>Inauguración en el Salón de Actos a las 10:00h</p>
+              </div>
+            </div>
+            
+            <div class="calendar-event">
+              <div class="event-date">
+                <span class="event-day">1</span>
+                <span class="event-month">JUN</span>
+              </div>
+              <div class="event-info">
+                <h4>Inicio proceso de admisión</h4>
+                <p>Apertura del plazo para nuevas solicitudes</p>
+              </div>
+            </div>
+            
+            <div class="calendar-event">
+              <div class="event-date">
+                <span class="event-day">15</span>
+                <span class="event-month">JUN</span>
+              </div>
+              <div class="event-info">
+                <h4>Fin de clases</h4>
+                <p>Último día lectivo del curso 2024-2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3>Dirección</h3>
+              <p>C/ Universidad 2, 50001 Zaragoza</p>
+            </div>
+            
+            <div class="contact-item">
+              <h3>Teléfono</h3>
+              <p>976 290 249</p>
+            </div>
+            
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>info@iespedredeluna.es</p>
+            </div>
+            
+            <div class="contact-item">
+              <h3>Horario de Secretaría</h3>
+              <p>Lunes a viernes: 9:00 - 14:00</p>
+              <p>Miércoles: 16:00 - 18:00</p>
+            </div>
+          </div>
+          
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.9669465034!2d-0.8855!3d41.6547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDM5JzE3LjAiTiAwwrA1MycwNy44Ilc!5e0!3m2!1ses!2ses!4v1621345678901!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-circle"></div>
+          <span>IES Pedro de Luna</span>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Enlaces rápidos</h3>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#noticias">Noticias</a></li>
+              <li><a href="#oferta">Oferta Educativa</a></li>
+              <li><a href="#calendario">Calendario</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Secretaría</h3>
+            <ul>
+              <li><a href="#">Admisión</a></li>
+              <li><a href="#">Matrícula</a></li>
+              <li><a href="#">Becas</a></li>
+              <li><a href="#">Documentos</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Plataformas</h3>
+            <ul>
+              <li><a href="#">Aula Virtual</a></li>
+              <li><a href="#">Portal de Padres</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> IES Pedro de Luna. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Política de privacidad</a>
+          <span>|</span>
+          <a href="#">Aviso legal</a>
+          <span>|</span>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
