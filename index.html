@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I.E.S. Pedro de Luna</title>
+    <title>I.E.S. Pedro de Luna - Zaragoza</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="date-info">
+                    <span id="current-date">miércoles, junio 11, 2025</span>
+                </div>
+                <div class="latest-news">
+                    <span>Lo último: </span>
+                    <div class="news-ticker">
+                        <ul class="ticker-list">
+                            <li><a href="#">LIBROS DE TEXTO CURSO 25/26</a></li>
+                            <li><a href="#">Calendario Recogida Banco de Libros – Curso 2024-2025</a></li>
+                            <li><a href="#">BANCO DE LIBROS 2025-2026</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Header Section -->
     <header class="header">
-        <div class="header-background">
-            <div class="container">
-                <div class="header-content">
-                    <div class="logo-section">
-                        <div class="logo">
-                            <div class="logo-circle">
-                                <span class="logo-text">IES</span>
-                            </div>
-                        </div>
-                        <h1 class="site-title">I.E.S. Pedro de Luna</h1>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <h1><span class="logo-ies">IES</span> <span class="logo-name">PEDRO DE LUNA</span></h1>
+                        <span class="logo-location">ZARAGOZA</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="bilingual-badge">
+                        <img src="/placeholder.svg?height=60&width=120" alt="Centro bilingüe" class="bilingual-img">
+                        <span>centro bilingüe</span>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Navigation -->
-        <nav class="main-navigation">
-            <div class="container">
+    </header>
+    
+    <!-- Main Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="nav-container">
+                <a href="#" class="home-icon"><i class="fas fa-home"></i></a>
                 <ul class="nav-menu">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Mi centro <span class="dropdown-arrow">▼</span></a>
+                        <a href="#" class="nav-link">EL CENTRO <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Información general</a></li>
                             <li><a href="#">Historia</a></li>
@@ -39,132 +72,436 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Programas <span class="dropdown-arrow">▼</span></a>
+                        <a href="#" class="nav-link">SECRETARÍA <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">ESO</a></li>
-                            <li><a href="#">Bachillerato</a></li>
-                            <li><a href="#">Ciclos formativos</a></li>
-                            <li><a href="#">Programas especiales</a></li>
+                            <li><a href="#">Matrícula</a></li>
+                            <li><a href="#">Becas</a></li>
+                            <li><a href="#">Trámites</a></li>
+                            <li><a href="#">Documentos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Extraescolares <span class="dropdown-arrow">▼</span></a>
+                        <a href="#" class="nav-link">DEPARTAMENTOS <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Deportes</a></li>
-                            <li><a href="#">Cultura</a></li>
+                            <li><a href="#">Matemáticas</a></li>
+                            <li><a href="#">Lengua y Literatura</a></li>
+                            <li><a href="#">Ciencias</a></li>
                             <li><a href="#">Idiomas</a></li>
-                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Humanidades</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Familias <span class="dropdown-arrow">▼</span></a>
+                        <a href="#" class="nav-link">PROYECTOS <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">AMPA</a></li>
-                            <li><a href="#">Circulares</a></li>
-                            <li><a href="#">Calendario escolar</a></li>
+                            <li><a href="#">Erasmus+</a></li>
+                            <li><a href="#">Innovación</a></li>
+                            <li><a href="#">Sostenibilidad</a></li>
+                            <li><a href="#">Convivencia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">AMPA <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Quiénes somos</a></li>
+                            <li><a href="#">Actividades</a></li>
                             <li><a href="#">Contacto</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Alumnado <span class="dropdown-arrow">▼</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Matrícula</a></li>
-                            <li><a href="#">Horarios</a></li>
-                            <li><a href="#">Evaluaciones</a></li>
-                            <li><a href="#">Becas</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ZONA JOVEN</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Profesorado <span class="dropdown-arrow">▼</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Claustro</a></li>
-                            <li><a href="#">Departamentos</a></li>
-                            <li><a href="#">Recursos</a></li>
-                            <li><a href="#">Formación</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CORREO</a>
                     </li>
                 </ul>
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                    <div class="search-dropdown">
+                        <form action="#" method="get">
+                            <input type="text" placeholder="Buscar..." name="search">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slider-item active">
+                <div class="slider-image" style="background-image: url('/placeholder.svg?height=600&width=1200');">
+                    <div class="slider-overlay"></div>
+                    <div class="slider-content">
+                        <div class="slider-tags">
+                            <span class="tag ampa">AMPA</span>
+                            <span class="tag destacadas">DESTACADAS</span>
+                            <span class="tag libros">LIBROS DE TEXTO</span>
+                        </div>
+                        <h2 class="slider-title">NORMAS PARA LA RECOGIDA DE LOS LOTES DEL BANCO DE LIBROS Y DE ALUMNOS BECADOS</h2>
+                        <div class="slider-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> junio 9, 2025</span>
+                            <span class="author"><i class="far fa-user"></i> IES Pedro de Luna</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-prev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-next" aria-label="Siguiente"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Featured Cards -->
+    <section class="featured-cards">
+        <div class="container">
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=300&width=400');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">BANCO DE LIBROS CURSO 2025-2026</h3>
+                        <div class="card-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> mayo 12, 2025</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=300&width=400');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LISTADO LIBROS CURSO 2024-2025 Actualizado 17/07</h3>
+                        <div class="card-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> junio 11, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=300&width=400');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ASESORÍA DE PREVENCIÓN DIGITAL</h3>
+                        <div class="card-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> junio 7, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="feature-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=300&width=400');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Punto de recogida de dispositivos para animales</h3>
+                        <div class="card-meta">
+                            <span class="date"><i class="far fa-calendar-alt"></i> diciembre 3, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Main Content -->
     <main class="main-content">
         <div class="container">
-            <div class="news-grid">
-                <!-- News Article 1 -->
-                <article class="news-card">
-                    <div class="news-meta">
-                        <span class="category">Últimas noticias</span>
+            <div class="content-wrapper">
+                <div class="content-main">
+                    <div class="section-header">
+                        <h2 class="section-title">Home</h2>
                     </div>
-                    <h2 class="news-title">
-                        <a href="#">LIBROS DE TEXTO CURSO 25/26</a>
-                    </h2>
-                    <div class="news-info">
-                        <span class="author">admin</span>
-                        <span class="date">6 junio, 2025</span>
+                    
+                    <div class="news-section">
+                        <div class="section-header">
+                            <h3 class="section-subtitle">NOVEDADES</h3>
+                        </div>
+                        
+                        <!-- News Item 1 -->
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="/placeholder.svg?height=200&width=300" alt="Banco de libros">
+                            </div>
+                            <div class="news-content">
+                                <h3 class="news-title">
+                                    <a href="#">NORMAS PARA LA RECOGIDA DE LOS LOTES DEL BANCO DE LIBROS Y DE ALUMNOS BECADOS</a>
+                                </h3>
+                                <div class="news-meta">
+                                    <span class="date">junio 9, 2025</span>
+                                    <span class="author">IES Pedro de Luna</span>
+                                </div>
+                                <div class="news-excerpt">
+                                    <p>Curso 2024 - 2025 - AMPA IES Pedro de Luna Entrega en lotes completos. A cada alumno se le ha asignado un día y hora específicos para la recogida de los libros...</p>
+                                </div>
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <!-- News Item 2 -->
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="/placeholder.svg?height=200&width=300" alt="Concurso fotografía">
+                            </div>
+                            <div class="news-content">
+                                <h3 class="news-title">
+                                    <a href="#">Concurso Fotografía Matemática</a>
+                                </h3>
+                                <div class="news-meta">
+                                    <span class="date">junio 6, 2025</span>
+                                    <span class="author">IES Pedro de Luna</span>
+                                </div>
+                                <div class="news-excerpt">
+                                    <p>El departamento de Matemáticas organiza el concurso anual de fotografía matemática. Participa enviando tus mejores fotografías que representen conceptos matemáticos...</p>
+                                </div>
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <!-- News Item 3 -->
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="/placeholder.svg?height=200&width=300" alt="Jornada puertas abiertas">
+                            </div>
+                            <div class="news-content">
+                                <h3 class="news-title">
+                                    <a href="#">Jornada de Puertas Abiertas 2025</a>
+                                </h3>
+                                <div class="news-meta">
+                                    <span class="date">mayo 28, 2025</span>
+                                    <span class="author">IES Pedro de Luna</span>
+                                </div>
+                                <div class="news-excerpt">
+                                    <p>Te invitamos a conocer nuestras instalaciones y oferta educativa en la Jornada de Puertas Abiertas que tendrá lugar el próximo 15 de junio. Reserva tu plaza...</p>
+                                </div>
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <div class="pagination">
+                            <span class="page-current">1</span>
+                            <a href="#" class="page-number">2</a>
+                            <span class="page-dots">...</span>
+                            <a href="#" class="page-number">10</a>
+                            <a href="#" class="page-next">Siguiente <i class="fas fa-chevron-right"></i></a>
+                        </div>
                     </div>
-                    <div class="news-excerpt">
-                        <p>Esto son los libros de texto para el próximo curso 25/26. ES IMPORTANTE NO ADQUIRIR LOS CUADERNILLOS de EJERCICIOS: WORKBOOK [...]</p>
+                </div>
+                
+                <aside class="sidebar">
+                    <div class="widget">
+                        <h3 class="widget-title">Enlaces</h3>
+                        <div class="widget-content">
+                            <ul class="links-list">
+                                <li>
+                                    <a href="#" class="platform-link">
+                                        <img src="/placeholder.svg?height=60&width=200" alt="SIGAD Gestión Didáctica">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="platform-link">
+                                        <img src="/placeholder.svg?height=60&width=200" alt="SIGAD Gestión Académica">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="platform-link">
+                                        <img src="/placeholder.svg?height=80&width=200" alt="Aeducar">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="platform-link">
+                                        <img src="/placeholder.svg?height=80&width=200" alt="Tok App School">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </article>
-
-                <!-- News Article 2 -->
-                <article class="news-card">
-                    <div class="news-meta">
-                        <span class="category">Últimas noticias</span>
+                    
+                    <div class="widget">
+                        <h3 class="widget-title">Calendario</h3>
+                        <div class="widget-content">
+                            <div class="calendar">
+                                <div class="calendar-header">
+                                    <span class="month">Junio 2025</span>
+                                    <div class="calendar-nav">
+                                        <button class="prev-month"><i class="fas fa-chevron-left"></i></button>
+                                        <button class="next-month"><i class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                                <table class="calendar-table">
+                                    <thead>
+                                        <tr>
+                                            <th>L</th>
+                                            <th>M</th>
+                                            <th>X</th>
+                                            <th>J</th>
+                                            <th>V</th>
+                                            <th>S</th>
+                                            <th>D</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td class="current-day">11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td class="event-day">20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                        </tr>
+                                        <tr>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="calendar-events">
+                                    <div class="event">
+                                        <span class="event-date">20 Jun</span>
+                                        <span class="event-title">Fin de curso</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="news-title">
-                        <a href="#">Calendario Recogida Banco de Libros – Curso 2024-2025</a>
-                    </h2>
-                    <div class="news-info">
-                        <span class="author">admin</span>
-                        <span class="date">4 junio, 2025</span>
+                    
+                    <div class="widget">
+                        <h3 class="widget-title">Síguenos</h3>
+                        <div class="widget-content">
+                            <div class="social-widget">
+                                <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="news-excerpt">
-                        <p>El alumnado que ha tenido asignado un LOTE del BANCO DE LIBROS durante el curso 2024-25, así como aquel alumnado</p>
-                    </div>
-                </article>
-
-                <!-- News Article 3 -->
-                <article class="news-card">
-                    <div class="news-meta">
-                        <span class="category-multiple">
-                            <a href="#">ESO</a>, 
-                            <a href="#">General</a>, 
-                            <a href="#">IES Pedro de Luna</a>, 
-                            <a href="#">Secretaría</a>
-                        </span>
-                        <span class="category">Últimas noticias</span>
-                    </div>
-                    <h2 class="news-title">
-                        <a href="#">BANCO DE LIBROS 2025-2026</a>
-                    </h2>
-                    <div class="news-info">
-                        <span class="author">admin</span>
-                        <span class="date">16 mayo, 2025</span>
-                    </div>
-                    <div class="news-excerpt">
-                        <p>Ya está abierto el plazo para la inscripción en el Banco de Libros para el curso 2025-2026. El banco de</p>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Pagination -->
-            <div class="pagination">
-                <span class="page-current">1</span>
-                <a href="#" class="page-number">2</a>
-                <span class="page-dots">...</span>
-                <a href="#" class="page-number">536</a>
-                <a href="#" class="page-next">Siguiente →</a>
+                </aside>
             </div>
         </div>
     </main>
 
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Quieres formar parte de nuestra comunidad educativa?</h2>
+                <p class="cta-text">Descubre nuestra oferta formativa y únete a nuestro proyecto educativo</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Solicitar información</a>
+                    <a href="#" class="btn btn-secondary">Ver oferta educativa</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>Copyright © 2025 I.E.S. Pedro de Luna | Powered by <a href="#">Tema Astra para WordPress</a></p>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Contacto</h3>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> C/ Universidad 2, 50001 Zaragoza</p>
+                            <p><i class="fas fa-phone"></i> 976 290 249</p>
+                            <p><i class="fas fa-envelope"></i> iespedrodeluna@educa.aragon.es</p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Enlaces rápidos</h3>
+                        <ul class="quick-links">
+                            <li><a href="#">Secretaría</a></li>
+                            <li><a href="#">Calendario escolar</a></li>
+                            <li><a href="#">Horarios</a></li>
+                            <li><a href="#">Biblioteca</a></li>
+                            <li><a href="#">Actividades extraescolares</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Departamentos</h3>
+                        <ul class="quick-links">
+                            <li><a href="#">Matemáticas</a></li>
+                            <li><a href="#">Lengua y Literatura</a></li>
+                            <li><a href="#">Ciencias</a></li>
+                            <li><a href="#">Idiomas</a></li>
+                            <li><a href="#">Humanidades</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Horario</h3>
+                        <div class="schedule">
+                            <p><strong>Lunes a Viernes:</strong> 8:30 - 14:30</p>
+                            <p><strong>Secretaría:</strong> 9:00 - 14:00</p>
+                            <p><strong>Biblioteca:</strong> 10:00 - 13:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">Copyright © 2025 I.E.S. Pedro de Luna | Todos los derechos reservados</p>
+                    <p class="credits">Powered by <a href="#">Tema Astra para WordPress</a></p>
+                </div>
+            </div>
         </div>
     </footer>
 
